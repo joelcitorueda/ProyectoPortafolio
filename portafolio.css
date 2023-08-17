@@ -1,0 +1,55 @@
+nav {
+    background-color: #2cd3bd;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+header {
+    background-color: #2cd3bd;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.contenido {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.color-verde{
+    color: #2cd3bd;
+    font-family: 'Caprasimo', cursive;
+    font-style: oblique;
+}
+.nav-redes {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.nav-redes a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.header-redes {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.contenido {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.li-redes{
+    color: #333;
+}
+.misredes-h2{
+    color: #333;
+}
