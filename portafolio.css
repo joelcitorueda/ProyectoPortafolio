@@ -53,3 +53,35 @@ header {
 .misredes-h2{
     color: #333;
 }
+.texto{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 9, 9);
+    text-align: justify;
+}
+.menu__porta{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+}
+.menu__redes{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 9, 9);
+    text-align: justify;
+}
+.cabecera__cursos{
+    background-color: #2D6E6B;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu__cursos{
+    background-color: #2D6E6B;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
