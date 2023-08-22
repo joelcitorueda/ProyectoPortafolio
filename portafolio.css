@@ -1,11 +1,11 @@
 .menu {
     background-color: #2cd3bd;
-    color: white;
+    color: #0e0f0f;
     padding: 10px;
     text-align: center;
 }
 .menu a {
-    color: white;
+    color: rgb(46, 197, 202);
     text-decoration: none;
     margin: 10px;
 }
@@ -102,11 +102,42 @@
     color: rgb(247, 245, 245);
     text-align: justify;
 }
-.menu__porta{
+.menu__portas{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: justify;
+    margin-top: 100px;
+    padding: 5px 6px;
+    background-color: #113833;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+.menu__portas:hover{
+    color: white;
+}
+.menu__portas:active{
+    background-color: #113833;
+}
+.menu__porta{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 100px;
+    padding: 5px 6px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+.menu__porta:hover{
+    color: #113833;
+}
+.menu__porta:active{
+    background-color: #2cd3bd;
 }
 .menu__redes{
     font-size: 14px;
