@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
 .menu {
     background-color: #2cd3bd;
     color: #0e0f0f;
@@ -16,6 +19,18 @@
     text-align: center;
     
 }
+.img__cursos{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    padding: 15px;
+}
+.img__github{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    padding: 15px;
+}
 .color__verde{
     font-family: 'Caprasimo', cursive;
     color:#2cd3bd ;
@@ -32,6 +47,23 @@
     margin: 10px;
 }
 .cabecera__sobremi{
+    background-color: #113833;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.menucito{
+    background-color: #113833;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.menucito a {
+    color: #113833;
+    text-decoration: none;
+    margin: 10px;
+}
+.cabecera__menucito{
     background-color: #113833;
     color: white;
     padding: 10px;
@@ -86,11 +118,6 @@
     list-style: none;
     text-decoration: none;
 }
-.contenidomio{
-    background-color: #113833;
-    list-style: none;
-    text-decoration: none;
-}
 .contenido {
     max-width: 1200px;
     margin: auto;
@@ -101,11 +128,33 @@
     margin: auto;
     padding: 20px;
 }
+/*TEXTOOOOOS*/
 .texto{
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-family: 'Fredoka', sans-serif;
     color: rgb(247, 245, 245);
     text-align: justify;
+    padding: 70px;
+    margin-left: 20px;
+}
+.menucito__cur{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 8, 8);
+    text-align: justify;
+    margin-top: 100px;
+    padding: 5px 6px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+.menucito__cur:hover{
+    color: rgb(1, 19, 14);
+}
+.menucito__cur:active{
+    background-color: #113833;
 }
 .menu__portaso{
     font-size: 14px;
@@ -137,6 +186,7 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 45px;
+    transition: background-color 0.3s ease;
 }
 .menu__portac:hover{
     color: #043636;
@@ -158,6 +208,9 @@
 }
 .menu__portam:hover{
     color: #113833;
+}
+.negrilla{
+    color: white;
 }
 .menu__portam:active{
     background-color: #2cd3bd;
@@ -229,7 +282,262 @@
     text-decoration: none;
 }
 .contenidoporta{
+    width:65%;
+    height: 450px;
     background-color: #2cd3bd;
     list-style: none;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.contenidox{
+    width: 50%;
+    padding-left: 100px; 
+}
+#name{
+    width: 35%;
+}
+.body1{
+    width: 100%;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+    
+}
+/*movimiento a las imagenes*/
+.imagen{
+    width: 400px; height: 400px;
+    position: absolute;
+    margin-left: 15%;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.img__portafolio{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 15px;
+    transition: 0.5s;
+}
+.imagen:hover .img__portafolio{
+    transform: scale(1.2);
+
+}
+.imagencur
+.img__cursos{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+.imagencur:hover .img__cursos{
+    transform: scale(1.2);
+}
+.imagengit
+.img__github{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+.imagengit:hover .img__github{
+    transform: scale(1.2);
+}
+.imagenredes
+.img__misredes{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 200px;
+    transition: 0.5s;
+}
+.imagenredes:hover .img__misredes{
+    transform: scale(1.2);
+}
+.apar__sobremi
+.img__sobremi{
+    width: 370px;
+    height: 370px;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 200px;
+    transition: 0.5s;
+}
+.apar__sobremi:hover .img__sobremi{
+    transform: scale(1.2);
+}
+.caja__madre{
+    display: flex;
+    
+}
+.body2{
+    background-color: #113833;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.apar__sobremi{
+    width:400px;
+    margin-left: 25px;
+    
+}
+.body3{
+    width: 50%;
+    height: 200px;
+    justify-content: center;
+    padding-left: 100px; 
+    align-items: baseline;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.texto__sobremi{
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(247, 245, 245);
+    text-align: justify;
+    margin-top: -400px;
+    margin-left: 20px;
+    text-align: left;
+}
+.caja__bebecita{
+    display: flex;
+    
+}
+.body6{
+    background-color: #29a1a1;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.apar__misredes{
+    width:400px;
+    margin-left: 25px;
+    
+}
+.body7{
+    width: 50%;
+    height: 200px;
+    justify-content: center;
+    padding-left: 100px; 
+    align-items: baseline;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.texto__misredes{
+    font-size: 28px;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(247, 245, 245);
+    text-align: justify;
+    margin-top: -400px;
+    margin-left: 20px;
+    text-align: left;
+}
+.misredes-h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif;
+
+}
+.caja__chikitita{
+    display: flex;
+    
+}
+.body8{
+    background-color: #333;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.apar__github{
+    width:400px;
+    margin-left: 100px;
+    
+}
+.body9{
+    width: 60%;
+    height: 100px;
+    justify-content: center;
+    padding-left: 100px; 
+    align-items: baseline;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.texto__github{
+    font-size: 28px;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(247, 245, 245);
+    text-align: justify;
+    margin-top: -400px;
+    margin-left: 20px;
+    text-align: left;
+}
+.caja__bebe{
+    display: flex;
+}
+.body4{
+    background-color: #113833;
+    width: 100%;
+    height: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apar__cursos{
+    width:400px;
+    margin-left: 25px;
+    
+}
+.body5{
+    width: 50%;
+    height: 200px;
+    justify-content: center;
+    padding-left: 100px; 
+    align-items: baseline;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 25px 50px 75px 100px;
+    
+}
+.texto__cursos{
+    font-size: 28px;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(247, 245, 245);
+    text-align: justify;
+    margin-top: -400px;
+    margin-left: 20px;
+    text-align: left;
+}
+.contenidomio{
+    background-color: #113833;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    padding-left: 100px;
 }
